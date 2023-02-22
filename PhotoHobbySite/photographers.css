@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+aside {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 14px;
+	line-height: 20px;
+	color: #FFF;
+	float: left;
+	padding-top: 10px;
+	padding-left: 10px;
+	position: relative;
+	height: 800px;
+	width: 300px
+}
+section {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 14px;
+	line-height: 25px;
+	background-image: url(images/text_bg540x399.jpg);
+	width: 550px;
+	position: relative;
+	top: 0px;
+	color: #FFF;
+	left: 330px;
+	height: 800px;
+}

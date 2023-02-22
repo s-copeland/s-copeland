@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Getting Started</title>
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+<style type="text/css">
+body {
+    background-color: #a67865;
+}
+</style>
+<link href="global.css" rel="stylesheet" type="text/css">
+<link href="gettingstarted.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('images/camera_rollover220x205.jpg','images/rollover_camera220x205.jpg')">
+<!-- wrapper starts //--> 
+
+<div id="wrapper">
+<!-- header starts //--> 
+<header><img src="images/header960x250.jpg">
+</header>
+<!-- header ends //--> 
+
+<!-- nav starts //--> 
+ <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gettingstarted.html">Getting Started</a></li>
+        <li><a href="photographers.html">Photographers</a></li>
+      </ul>
+    </nav>
+    
+<!-- nav ends //--> 
+	
+
+	
+<!-- section starts //-->
+	<section>
+		
+		<h2>Shutter</h2>
+			<p>The shutter speed controls how fast the shutter closes. It is a measurement of time - for instance, a shutterspeed of 1/8000 second is extremely fast while a shutter of 1/2 second is quite slow. Fast and slow shutter speeds both have a time and a place for use. For example, a fast shutter speed is excellent for stopping action when photographing sports or wildlife. On the contrary, a slow shutter speed can allow one to create a paint-like effect with light.
+			</p>
+		
+		<h2>Aperture</h2>
+			<p>The aperture (or f/stop) controls how much light reaches the sensor and also affects the depth of field of an image. A wide aperture such as f/1.4 allows a lot of light in and makes a shallow depth of field, giving a lot of blur to the background and god bokeh. A medium-wide aperture is great for portrait photography. On the other hand, a narrow aperture of f/14 doesn't allow much light in and makes for a wider depth of field. Such an aperture is desirable for landscape photography. 
+			</p>
+		
+		<h2>ISO</h2>
+			<P>The ISO desribes the sensitivity of the sensor. Whenever possible, it is best to keep the ISO as low as possible (100) to prevent a lot of noise in your images. Of course, if there isn't a lot of light, you may have to sacrifice this to shoot at a higher ISO such as 6400. How high your ISO can go before making the images unusable due to noise depends on the quality of the camera. Good quality professional level equipment can sometimes go as high as the tens of thousands, whereas amateur level equipment may only be usable up to ISO 1600.
+			</P>
+	</section> 
+
+<!-- section ends //--> 
+
+<!-- footer starts //-->
+<footer><img src="images/camera220x205.jpg" alt="Camera Footer Image" width="220" height="205" id="Image1" onMouseOver="MM_swapImage('Image1','','images/rollover_camera220x205.jpg',1)" onMouseOut="MM_swapImgRestore()">
+	<p>Footer image from <a href="https://unsplash.com/photos/SXjTAlW1kLc">here</a> taken by Pedram Farjam</p>
+	</footer> 
+
+
+<!-- footer ends //--> 
+
+
+</div>
+<!-- wrapper ends //--> 
+</body>
+</html>

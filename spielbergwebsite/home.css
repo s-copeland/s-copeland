@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+aside {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 14px;
+	line-height: 20px;
+	color: #FFF;
+	float: left;
+	padding-top: 10px;
+	padding-left: 10px;
+	position: relative;
+	height: 630px;
+	width: 300px;
+	background:#888888}
+
+section {
+	position: relative;
+	left: 50px;
+	height: 620px
+}
+
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+a:visited {
+    color: #000000;
+}
+a:hover {
+    color: #3E3E3E;
+}
+a:active {
+    color: #3E3E3E;
+}
+
+section img{
+	margin-right: 20px
+}
+	

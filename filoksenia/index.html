@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+       <title>Filoksenia Greek Cuisine</title>
+       <link rel="stylesheet" href="css/style.css"/>
+	   <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+       <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>	
+	   <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	   <link href='http://fonts.googleapis.com/css?family=Goudy+Bookletter+1911' rel='stylesheet' type='text/css'>
+	  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+	<script>
+   
+<!----- JQUERY FOR SLIDING NAVIGATION --->   
+$(document).ready(function() {
+  $('a[href*=#]').each(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname
+    && this.hash.replace(/#/,'') ) {
+      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+       if ($target) {
+         var targetOffset = $target.offset().top;
+
+<!----- JQUERY CLICK FUNCTION REMOVE AND ADD CLASS "ACTIVE" + SCROLL TO THE #DIV--->   
+         $(this).click(function() {
+            $("#nav li a").removeClass("active");
+            $(this).addClass('active');
+           $('html, body').animate({scrollTop: targetOffset}, 1000);
+           return false;
+         });
+      }
+    }
+  });
+
+});
+
+
+</script>
+
+
+ </head> 
+	
+<body>
+
+
+<!----- HEADER START--->   
+<header id="header">
+<div class="content">
+<div id="logo"><a href="">FILOKSENIA GREEK CUISINE</a></div>
+
+<nav id="nav">
+	<ul>
+		<li><a href="#slide1" class="active" title="Next Section" >About</a></li>
+		<li><a href="#slide2" title="Next Section">Breakfast</a></li>
+		<li><a href="#slide3" title="Next Section">Lunch</a></li>
+		<li><a href="#slide4" title="Next Section">Dinner</a></li>
+		<li><a href="#slide5" title="Next Section">Contact</a></li>
+	</ul>
+</nav>
+</div>
+</header>	
+<!----- HEADER END--->   
+
+<!----- SLIDES START --->   	
+	<div id="slide1">
+		<div class="content">
+			<br><br><br>
+			<h1>FILOKSENIA</h1>
+			<h2>"friend to a stranger"</h2>
+			<center><p>At Filoksenia Greek Cousine, our goal is to provide our customers with outstanding sustainably sourced Greek meals. Over three quarters of all food used in our restaurant is grown or raised in the state of Illinois. As our name implies, service is a top priority at Filoksenia.</p></center>
+		</div> 
+    </div> 
+
+	<div id="slide2">
+		<div class="content" ><h2> BREAKFAST </h2>
+    		  <div id="menu"> 
+		 <h3> Sfakianopita </h3> 
+		<h4> Sfakianopita, or "sweet pie" is a traditional Greek breakfast similar to crepes or pancakes. The thin layers of dough are combined with a soft whey cheese.</h4>  
+			  <h3> Strapatsada </h3> 
+		 <h4> Strapatsada, AKA "egg dish" consists of refreshing flavors from locally sources eggs, tomatoes, fresh herbs, and feta cheese. </h4>  
+			  <h3> Ladenia </h3> 
+		 <h4> Ladenia is a Greek flatbread topped with tomatoes, onions, and olive oil. Ladenia is believed to be a Greek version of the Italian pizza.</h4>
+			</div>
+         <div id="menu1"> 
+		  			<h3> Rizogalo </h3> 
+		 <h4> Rizogalo is a Greek-style rice pudding, which can be enhanced with your choice of vanilla or citrus.</h4>    
+				  <h3> Omeletta </h3> 
+		 <h4> Though "Omeletta" sounds similar to the well known omlette, it is actually more similar to a fritata. The omletta consists of fried poatoes and eggs with bell peppers.</h4>  
+				  <h3> Bougatsa </h3> 
+		 <h4> Bougatsa is a sweet, layered pastry filled with your choice of minced meat, cheese, or semolina custard. </h4>  </div>
+		</div> 
+		</div> 
+    </div> 
+	
+	
+<div id="slide3">
+		<div class="content"><h2> LUNCH </h2>
+		  <div id="menu"> 
+		 <h3> Gyros </h3> 
+			  <h4> Gyros consists of lamb meat, tomato, onions, fried potatos, and tzatziki wrapped into a pita bread.  </h4>  
+			  <h3> Souvlaki </h3> 
+		 <h4> Your choice of chicken or pork grilled on a skewer. Served with pita bread, vegetables, and tzatsiki on the side.</h4>  
+			
+			</div>
+         <div id="menu1"> 
+		  <h3> Stifado </h3> 
+				  <h4> Stifado is a Greek stew made of locally sourced beef, onions, wine, and tomatoes.</h4>    
+				  <h3> Spanakopita </h3> 
+		 <h4> Spanakopita is a Greek spinach pie filled with fresh spinach, leeks, herds, feta, and olive oil.</h4>  
+				    </div>
+	 </div> 
+</div> 
+
+	
+	
+	<div id="slide4">
+		<div class="content"><h2> DINNER </h2>
+             		  <div id="menu"> 
+		 <h3> Gemista </h3> 
+						  <h4> Gemnista is stuffed tomatoes or peppers filled with rice and herbs.</h4>  
+			  <h3> Moussaka </h3> 
+		 <h4> Similar to an American casserole, moussaka is baked in the oven made of sautéed aubergine, minced lamb, fried puréed tomato, potato, onion, garlic and spices like cinnamon and allspice. It is topped with creamy béchamel sauce and cheese. </h4>  
+						  <h3> Kleftiko </h3> 
+		 <h4> Kleftiko is slow cooked lamb with potatos and vegetables.</h4> 
+			 
+			</div>
+         <div id="menu1"> 
+		  <h3> Makaronia me kima </h3> 
+				  <h4> Makaronia me kima is made with spaghetti noodles in a minced meat and tomato sauce.</h4>    
+				 <h3> Yiouvetsi </h3> 
+		 <h4> Yiouvetsi is a dish made with lamb, orzo pasta, onions, garlic, red wine, and tomato sauce. Served with grated cheese on top.</h4>  
+				  <h3> Fasolatha </h3> 
+		 <h4> Fasolatha is a white bean soup consisting of beans, crushed tomatoes, onions, carrots and celery.</h4>  </div>
+		</div> 
+    </div> 
+	
+	
+	<div id="slide5">
+		<div class="content">
+           <div class="quotes_container">
+				<h2>CONTACT US</h2>
+			   <h3>Call 759-342-3482 to order.</h3>
+			   <h3>Email hello@filoksenia.com if you have any questions/comments.</h3>
+		</div> 
+		
+
+    </div> 
+	
+<!----- SLIDES END --->
+
+</body>
+</html>

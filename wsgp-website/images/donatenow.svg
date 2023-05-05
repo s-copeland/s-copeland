@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 258 78">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #163c11;
+      }
+
+      .cls-2 {
+        fill: #82ca9c;
+      }
+
+      .cls-3 {
+        font-family: Rockwell-Regular, Rockwell;
+        font-size: 35px;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.02em;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="cls-2" d="m23.25.5h211.5c12.56,0,22.75,10.19,22.75,22.75v31.5c0,12.56-10.19,22.75-22.75,22.75H23.25c-12.56,0-22.75-10.19-22.75-22.75v-31.5C.5,10.69,10.69.5,23.25.5Z"/>
+    <path class="cls-1" d="m234.75,1c12.27,0,22.25,9.98,22.25,22.25v31.5c0,12.27-9.98,22.25-22.25,22.25H23.25c-12.27,0-22.25-9.98-22.25-22.25v-31.5C1,10.98,10.98,1,23.25,1h211.5m0-1H23.25C10.41,0,0,10.41,0,23.25v31.5c0,12.84,10.41,23.25,23.25,23.25h211.5c12.84,0,23.25-10.41,23.25-23.25v-31.5c0-12.84-10.41-23.25-23.25-23.25h0Z"/>
+  </g>
+  <text class="cls-3" transform="translate(21.96 51)"><tspan x="0" y="0">Do</tspan><tspan class="cls-5" x="49.18" y="0">n</tspan><tspan class="cls-4" x="70.77" y="0">ate Now</tspan></text>
+</svg>

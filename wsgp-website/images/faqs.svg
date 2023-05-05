@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 425.08 143.51">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c9f4d7;
+        font-family: Rockwell-Bold, Rockwell;
+        font-size: 129px;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-3 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-4 {
+        fill: #29563b;
+        font-family: Rockwell-Regular, Rockwell;
+        font-size: 30px;
+      }
+    </style>
+  </defs>
+  <text class="cls-1" transform="translate(43.67 108.29)"><tspan class="cls-2" x="0" y="0">F</tspan><tspan class="cls-3" x="75.59" y="0">A</tspan><tspan x="161.82" y="0">Qs</tspan></text>
+  <text class="cls-4" transform="translate(0 77.41)"><tspan class="cls-3" x="0" y="0">F</tspan><tspan class="cls-2" x="17.43" y="0">r</tspan><tspan x="29.22" y="0">equently Asked Questions</tspan></text>
+</svg>

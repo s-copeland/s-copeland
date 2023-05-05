@@ -1,0 +1,16 @@
+@charset "utf-8";
+	.NormalCharacterStyle
+{
+	font-family : Rockwell;
+	font-size : 30px;
+	color : #29563B;
+	color : rgb(41, 86, 59);
+}
+.NormalCharacterStyle1
+{
+	font-family : Rockwell;
+	font-weight : bold;
+	font-size : 129px;
+	color : #C9F4D7;
+	color : rgb(201, 244, 215);
+}

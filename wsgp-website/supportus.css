@@ -19,6 +19,14 @@ section {
 	padding-right: 10%;
 }
 
+#fundraisers h1, h4{
+	color: white;
+}
+
+footer h4 {
+	color: black;
+}
+
 h1 {
 	text-color: #FFF;
 	font-family: Rockwell, serif;
